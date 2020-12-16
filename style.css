@@ -1,6 +1,7 @@
 html,
 body {
     /* remove default body el margin */
+    /* https://www.sitepoint.com/community/t/what-is-setting-an-8px-margin-on-my-page/309002 */
     margin: 0 auto;
 }
 
@@ -8,17 +9,17 @@ html {
     /* parent attributes */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: .15em;
-}
-
-body {
-    /* https://www.sitepoint.com/community/t/what-is-setting-an-8px-margin-on-my-page/309002 */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+body {
     width: 100%;
     height: fit-content;
     padding-top: .5em;
+    margin-bottom: 100em;
 }
 
 
